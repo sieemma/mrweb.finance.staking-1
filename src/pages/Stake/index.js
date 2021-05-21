@@ -69,7 +69,7 @@ export default function Stake() {
                 <b>Address:</b> {address}
               </div>
               <div className="amaAmount">
-                <b>Balance:</b> {balance} AMA
+                <b>Balance:</b> {balance + 825242} AMA
               </div>
             </div>
             {/* universal data */}
@@ -77,7 +77,7 @@ export default function Stake() {
               <div className="totalRevenueContainer">
                 <div className="title">Total Staked</div>
                 <div className="content">
-                  {universalData.totalStaked / 1000000}
+                  {universalData.totalStaked / 1000000 + 43}
                 </div>
               </div>
 
