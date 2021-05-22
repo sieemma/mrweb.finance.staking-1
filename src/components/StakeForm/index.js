@@ -17,7 +17,7 @@ export default function StakeForm({ contract, tokenContract, address }) {
 
   const submitStake = () => {
     if (amount < 100) return toast.error("Minimum Stake Amount is 100 AMA");
-    if(amount > 2500000000) return toast.error('Maximum Stake Amount is 25M AMA');
+    if(amount > 2500000000) return toast.error('Maximum Stake Amount is 2.5B AMA');
 
     tokenContract
       .approve(
